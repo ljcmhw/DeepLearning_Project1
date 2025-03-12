@@ -35,7 +35,7 @@ This project implements a **ResNet-18** variant for the CIFAR-10 dataset using P
 
 This project uses Python 3.8+ with the following main dependencies (versions are for reference only):
 
-## QuickStart
+## Quick Start
 
 ### Download CIFAR-10 Dataset
 
