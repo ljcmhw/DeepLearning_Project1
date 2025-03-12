@@ -43,9 +43,10 @@ This project uses the CIFAR-10 dataset provided by Kaggle. If you don't have a k
 ```pip install kaggle```
 
 Then you need to create a new data folder, download the data set and put it into the folder with the following code：
-```kaggle competitions download -c deep-learning-spring-2025-project-1
-   unzip deep-learning-spring-2025-project-1.zip -d data/```
+```kaggle competitions download -c deep-learning-spring-2025-project-1```
+```unzip deep-learning-spring-2025-project-1.zip -d data/```
 
 ### Run the model
+
 If you use **Jupyter Notebook**, please directly run the file: project-1-final.ipynb
 If you use **any other Python IDE**, please download the files in `src` folder.
