@@ -39,12 +39,17 @@ This project uses Python 3.8+ with the following main dependencies (versions are
 
 ### Download CIFAR-10 Dataset
 
-This project uses the CIFAR-10 dataset provided by Kaggle. If you don't have a kaggle command line tool, please firstly run:
-```pip install kaggle```
+This project uses the CIFAR-10 dataset provided by Kaggle. 
+If you don't have a kaggle command line tool, please firstly run:
+```
+pip install kaggle
+```
 
 Then you need to create a new data folder, download the data set and put it into the folder with the following code：
-```kaggle competitions download -c deep-learning-spring-2025-project-1```
-```unzip deep-learning-spring-2025-project-1.zip -d data/```
+```
+kaggle competitions download -c deep-learning-spring-2025-project-1
+unzip deep-learning-spring-2025-project-1.zip -d data/
+```
 
 ### Run the model
 
