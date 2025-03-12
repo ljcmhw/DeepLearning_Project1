@@ -34,3 +34,18 @@ This project implements a **ResNet-18** variant for the CIFAR-10 dataset using P
 ## Environment Setup
 
 This project uses Python 3.8+ with the following main dependencies (versions are for reference only):
+
+## QuickStart
+
+### Download CIFAR-10 Dataset
+
+This project uses the CIFAR-10 dataset provided by Kaggle. If you don't have a kaggle command line tool, please firstly run:
+```pip install kaggle```
+
+Then you need to create a new data folder, download the data set and put it into the folder with the following code：
+```kaggle competitions download -c deep-learning-spring-2025-project-1
+   unzip deep-learning-spring-2025-project-1.zip -d data/```
+
+### Run the model
+If you use **Jupyter Notebook**, please directly run the file: project-1-final.ipynb
+If you use **any other Python IDE**, please download the files in `src` folder.
