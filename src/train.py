@@ -23,7 +23,7 @@ LR = 0.1
 MOMENTUM = 0.9
 WEIGHT_DECAY = 5e-4
 
-save_path = "best_model.pth"
+save_path = "./model/best_model.pth"
 
 # Load data
 train_data_np, train_labels_np = load_cifar10_train(DATA_PATH)
