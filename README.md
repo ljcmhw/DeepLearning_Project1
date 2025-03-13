@@ -33,7 +33,7 @@ This project implements a **ResNet-18** variant for the CIFAR-10 dataset using P
 
 ## Environment Setup
 
-This project uses Python 3.8+ with the following main dependencies (versions are for reference only):
+This project uses Python 3.8+ with the following main dependencies:
 numpy==1.23.5 pandas==1.5.3 torch==1.13.1 torchvision==0.14.1 tqdm==4.64.1 matplotlib==3.6.2
 
 ## Quick Start
